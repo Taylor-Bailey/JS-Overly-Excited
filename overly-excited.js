@@ -1,7 +1,8 @@
-console.log("Hello, world!");
+// console.log("Hello, world!");
 
 // Create an array that contains the words in the sentence
 let sentence = ["The", "walrus", "danced", "through", "the", "trees", "in", "the", "light", "of", "the", "moon"];
+let ownPhrase = ["I", "don't", "know", "why", "there's", "space", "between", "the", "exclamation", "marks", ", but", "I'm", "overly", "excited", "to", "have", "this", "done"]
 
 /*
     The addExcitement function should be an impure function, and accept
@@ -25,5 +26,7 @@ function addExcitement (theWordArray, exclaim) {
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence, "!");
+
+// addExcitement(sentence, "!");
 // addExcitement(sentence, "?");
+addExcitement(ownPhrase, "!");
